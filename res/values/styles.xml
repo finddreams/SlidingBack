@@ -1,0 +1,44 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+<style name="Theme.Swipe.Back" parent="AppTheme">
+  <item name="android:windowIsTranslucent">true</item>
+  <item name="android:windowBackground">@android:color/transparent</item>
+  </style>
+ <style name="top_group">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/qq_constact_font</item>
+        <item name="android:background">@drawable/qq_constact_group</item>
+    </style>
+    
+    <style name="top_all">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@drawable/qq_constact_font</item>
+        <item name="android:background">@drawable/qq_constact_all</item>
+    </style>
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
